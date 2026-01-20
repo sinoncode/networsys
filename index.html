@@ -6,6 +6,8 @@
     <title>Networksys Technologies</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -193,19 +195,27 @@
         <div class="about-container">
             <div class="about-image">
                 <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop" alt="Team collaboration">
+                  <div class="stats">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="10">0</h3>
+                        <p>Year of Experience</p>
+                    </div>
+                </div>
             </div>
             <div class="about-content">
                 <span class="section-badge">WELCOME TO NETWORKSYS</span>
                 <h2>About Us</h2>
                 <p>From collecting data to data analysis we offer diverse scare sets that suits your business needs. Our services include analysis, visualization, and warehousing as well.</p>
                 <p>From collecting data to data analysis we offer diverse scare sets that suits your business needs. Our services include analysis, visualization, and warehousing as well.</p>
-                <div class="stats">
-                    <div class="stat-item">
-                        <h3 class="counter" data-target="10">0</h3>
-                        <p>Year of Experience</p>
-                    </div>
-                </div>
-                <button class="cta-btn" style="margin-top: 2rem;">Let's talk</button>
+              
+                <button class="cta-btn gradient-btn" style="margin-top: 2rem;">Let's talk</button>
+
+               
+<button class="particle-btn">
+  <div id="particles-btn"></div>
+  <span class="btn-text">Hover Me</span>
+</button>
+
             </div>
         </div>
     </section>
@@ -496,5 +506,45 @@
     </footer>
 
    <script src="/js/script.js"></script>
+   <script>
+ let particlesInstance = null;
+
+const button = document.querySelector(".particle-btn");
+
+button.addEventListener("mouseenter", async () => {
+  if (particlesInstance) return;
+
+  particlesInstance = await tsParticles.load("particles-btn", {
+    fullScreen: { enable: false },
+    background: { color: "transparent" },
+
+    particles: {
+      number: { value: 14 },
+      color: {
+        value: ["#ff6ec4", "#7873f5", "#22d3ee", "#4ade80", "#facc15"]
+      },
+      shape: { type: "circle" },
+      opacity: { value: 0.8 },
+      size: { value: { min: 40, max: 90 } },
+      move: {
+        enable: true,
+        speed: 0.6,
+        direction: "none",
+        outModes: { default: "bounce" }
+      }
+    },
+
+    detectRetina: true
+  });
+});
+
+button.addEventListener("mouseleave", () => {
+  if (particlesInstance) {
+    particlesInstance.destroy();
+    particlesInstance = null;
+  }
+});
+
+   </script>
 </body>
 </html>
