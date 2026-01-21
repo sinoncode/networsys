@@ -204,33 +204,33 @@
         const industryData = {
             social: {
                 title: 'Social Media & Entertainment',
-                desc: 'Lorem ipsum artum, soleum portam sare est lanum gratum ips alatum. Lorem ipsum set est lanum gratum is trisem is lorem batum set portum.',
-                img: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=400&fit=crop'
+                desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias cumque et quos iste corporis, atque fugit maxime, corrupti eos iure illum, tempora tempore voluptatum ipsam asperiores fugiat unde. Minima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis tenetur consectetur voluptatibus illo incidunt repellendus minima, aspernatur, cumque in delectus praesentium! Perspiciatis aliquam et fugiat repellat numquam fuga animi!',
+                img: '/images/mockup1.jpg'
             },
             food: {
                 title: 'Food & Restaurant',
-                desc: 'Comprehensive solutions for restaurants and food delivery platforms with online ordering, inventory management, and customer engagement tools.',
-                img: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=400&fit=crop'
+                desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias cumque et quos iste corporis, atque fugit maxime, corrupti eos iure illum, tempora tempore voluptatum ipsam asperiores fugiat unde. Minima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis tenetur consectetur voluptatibus illo incidunt repellendus minima, aspernatur, cumque in delectus praesentium! Perspiciatis aliquam et fugiat repellat numquam fuga animi!',
+                img: '/images/mockup2.avif'
             },
             ecommerce: {
                 title: 'Ecommerce',
-                desc: 'Complete ecommerce solutions with secure payment gateways, inventory management, and seamless shopping experiences.',
-                img: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop'
+                desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias cumque et quos iste corporis, atque fugit maxime, corrupti eos iure illum, tempora tempore voluptatum ipsam asperiores fugiat unde. Minima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis tenetur consectetur voluptatibus illo incidunt repellendus minima, aspernatur, cumque in delectus praesentium! Perspiciatis aliquam et fugiat repellat numquam fuga animi!',
+                img: '/images/mockup1.jpg'
             },
             healthcare: {
                 title: 'Healthcare',
-                desc: 'Advanced healthcare technology solutions including patient management systems, telemedicine platforms, and health tracking applications.',
-                img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop'
+                desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias cumque et quos iste corporis, atque fugit maxime, corrupti eos iure illum, tempora tempore voluptatum ipsam asperiores fugiat unde. Minima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis tenetur consectetur voluptatibus illo incidunt repellendus minima, aspernatur, cumque in delectus praesentium! Perspiciatis aliquam et fugiat repellat numquam fuga animi!',
+                img: '/images/mockup2.avif'
             },
             education: {
                 title: 'Education',
-                desc: 'Modern e-learning platforms and educational management systems to transform the learning experience.',
-                img: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=400&fit=crop'
+                desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias cumque et quos iste corporis, atque fugit maxime, corrupti eos iure illum, tempora tempore voluptatum ipsam asperiores fugiat unde. Minima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis tenetur consectetur voluptatibus illo incidunt repellendus minima, aspernatur, cumque in delectus praesentium! Perspiciatis aliquam et fugiat repellat numquam fuga animi!',
+                img: '/images/mockup1.jpg'
             },
             retail: {
                 title: 'Retail',
-                desc: 'Digital retail solutions including POS systems, inventory management, and omnichannel retail experiences.',
-                img: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=400&fit=crop'
+                desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas alias cumque et quos iste corporis, atque fugit maxime, corrupti eos iure illum, tempora tempore voluptatum ipsam asperiores fugiat unde. Minima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis tenetur consectetur voluptatibus illo incidunt repellendus minima, aspernatur, cumque in delectus praesentium! Perspiciatis aliquam et fugiat repellat numquam fuga animi!',
+                img: '/images/mockup2.avif'
             }
         };
 
